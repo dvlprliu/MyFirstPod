@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let firstPod = MyFirstPod(aKey: "Hello world")
         firstPod.printMsg()
+        print("let's make some changes")
         
     }
 

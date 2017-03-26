@@ -1,8 +1,7 @@
 {
   "name": "MyFirstPod",
   "version": "0.1.0",
-  "summary": "A short description of MyFirstPod.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "my firt pod",
   "homepage": "https://github.com/dvlprliu/MyFirstPod",
   "license": {
     "type": "MIT",
@@ -18,6 +17,7 @@
   "platforms": {
     "ios": "8.0"
   },
+  "requires_arc": true,
   "source_files": "MyFirstPod/Classes/**/*",
   "frameworks": [
     "UIKit",
