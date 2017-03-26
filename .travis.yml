@@ -8,8 +8,8 @@ language: objective-c
 xcode_workspace: MyFirstPod.xcworkspace
 xcode_scheme: MyFisrtPod-Example
 # cache: cocoapods
- podfile: Example/Podfile
- before_install:
+podfile: Example/Podfile
+before_install:
  - gem install cocoapods # Since Travis is not always on latest version
  - pod install --project-directory=Example
 script:
