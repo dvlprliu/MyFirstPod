@@ -17,4 +17,8 @@ public class MyFirstPod {
             
         }
     }
+    
+    public func new() {
+        
+    }
 }
