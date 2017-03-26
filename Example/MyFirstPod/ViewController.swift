@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import MyFirstPod
+import AFNetworking
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let firstPod = MyFirstPod(aKey: "Hello world")
+        firstPod.printMsg()
+        
     }
 
     override func didReceiveMemoryWarning() {
